@@ -15,8 +15,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Configuration;
 
-namespace Chat.Web.Controllers
-{
+namespace Chat.Web.Controllers;
+
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
@@ -98,4 +98,4 @@ namespace Chat.Web.Controllers
             return BadRequest();
         }
     }
-}
+
